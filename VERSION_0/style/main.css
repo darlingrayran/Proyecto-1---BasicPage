@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ /*header*/
+.page-header {
+    height: auto;
+    margin: 0;
+    width: 100%;
+    text-transform: uppercase;
+    background-color: green;
+}
+
+.page-header-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px16px;
+    padding: 2rem;
+    color: white;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 3.5rem;
+    background-color: #AEE38A;
+    font-size: 18px;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    color: black;
+}
+
+.header-container a {
+    color: inherit; 
+    text-decoration: none;
+}
+
+.header-container a:hover {
+    text-decoration: underline;
+    color: green;
+}
+ /* body imagen y eslogan */
+
+.hero {
+    width: 100vw;
+    height: 10rem;
+    background-image: url(../Imagenes/fondo2.jpeg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+.hero-title {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #AEE38A;
+    color: black;
+    transform: translateY(250%);
+    text-align: center;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.triangle {
+    position: absolute;  
+    left: 42%;
+    transform: translateY(600%) rotate(180deg);
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent; 
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid #AEE38A; 
+}
+
+/*reseña*/
+
+.container-text{
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+}
+
+.text-title{
+    color: green;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+.text {
+    font-family: OpenSans;
+    color: #54585a;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    margin-top: 60px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* tipos */
+
+.categories{
+    text-align: center;
+    flex-direction: row;
+    background-color: white;
+}
+
+.img{
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+    border: 4px solid green;
+    box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subtitle{
+    color: brown;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+.description {
+    color: #54585a;
+    font-family: OpenSans;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px;
+    padding-top: 10px;
+}
+
+.icon a {
+    color: green;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 16px;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.icon .separator {
+    color: black; 
+    font-size: 16px;
+}
+
+.icon i {
+    font-size: 16px;
+}
+
+/*footer*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: green;
+}
+
+.footer,
+.contact-footer,
+.author-info {
+    margin: 10px 0;
+}
+.footer-copy{
+    color: white;
+    font-family: OpenSans;
+}
+.link {
+    font-family: OpenSans;
+    text-decoration: none;
+    color: white; 
+}
+
+.author {
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    border-radius: 50%; 
+}
+
+
+
+
+
+
+
